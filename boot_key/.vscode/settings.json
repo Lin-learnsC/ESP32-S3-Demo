@@ -1,0 +1,19 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.portWin": "COM17",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "D:\\Coding_Tools\\Espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20250422/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "ESP_ROM_ELF_DIR": "D:\\Coding_Tools\\Espressif\\tools\\esp-rom-elfs\\20241011/",
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "D:\\Coding_Tools\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=D:\\Coding_Tools\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=d:\\01_Programming\\ESP-32-S3-demo\\boot_key\\build"
+  ],
+  "idf.flashType": "UART"
+}
